@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^share/([a-zA-Z0-9]+)$ share.php?f=$1 [L]
+
+RewriteRule ^user/([a-zA-Z0-9]+)$ user.php?f=$1 [L]
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?f=$1

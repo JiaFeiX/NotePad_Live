@@ -1,0 +1,19 @@
+body {
+    background: #fff;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    color: #1e1e1e;
+    margin: 25px 50px;
+}
+
+#promo, #controls, .stack, #loading { display: none }
+
+#printable_contents {
+    display: block;
+    white-space: pre-wrap;
+}
+
+#printable_contents.monospace {
+    font: normal 12px Monaco, 'Courier New', monospace;
+    line-height: 18px;
+}
