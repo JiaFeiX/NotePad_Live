@@ -1,4 +1,4 @@
-#NotePad.Live（内部代码） 
+#NotePad.Live 开源代码
 
 简洁的云笔记本，支持加密，只读分享
 
